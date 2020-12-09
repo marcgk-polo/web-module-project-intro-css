@@ -1,8 +1,4 @@
 
-* {
-    border: solid 1px black;
-}
-
 
 /* html, body, div, span, applet, object, iframe, 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -48,7 +44,9 @@ table {
 	border-spacing: 0;
 } */
 
-
+* {
+    font-family:Roboto Mono;
+}
 header {
     width:100%;
 }
@@ -67,6 +65,17 @@ button {
     padding: 5px 30px 5px 30px;
 }
 
+.plan {
+    background-color:#FF764E;
+}
+
+.learn {
+    background-color:#5ED3EB ;
+}
+
+.get {
+    background-color:#FFCD69 ;
+}
 
 .opening {
     width:80%;
@@ -85,17 +94,24 @@ div.image-container {
 }
 
 .park-guide {
-    width:60%;
-    margin-left:40%;
-    margin-bottom:5%;
+    width:80%;
+    margin-left:25%;
+    margin-bottom:12%;
+    margin-top:8%;
     text-align:center;
+}
+
+.park-guide h1 {
+    font-family:Chelsea Market;
 }
 
 .introduction {
     width:90%;
-    padding: 0% 2.5% 0% 2.5%;
+    padding: .5% 2.5% .5% 2.5%;
     margin: 2.5%;
-    background-color:lightblue;
+    background-color:#DDB9A3;
+    color:white;
+    text-align:center;
 }
 
 .reminders {
@@ -117,6 +133,10 @@ div.image-container {
     background-size: cover;
     width: 99%;
     height: 15em;
+}
+
+.reminders p {
+    font-weight:700;
 }
 
 footer {
