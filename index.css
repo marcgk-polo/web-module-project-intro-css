@@ -1,4 +1,10 @@
-html, body, div, span, applet, object, iframe,
+
+* {
+    border: solid 1px black;
+}
+
+
+/* html, body, div, span, applet, object, iframe, 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -40,14 +46,27 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+} */
+
+
+header {
+    width:100%;
 }
 
-/* Reset Ends here */
+.navigation {
+    width:80%;
+    margin:5% 10% 5% 10%;
+}
 
 button {
-    padding: 10px, 20px, 10px, 20px;
     background-color: red;
-    border:0px;
-    border-radius: 5px;
+    border-radius: 10px;
     color:white;
+    margin-left:13%;
+    border: 0px;
+    padding: 5px 30px 5px 30px;
+}
+
+h1 {
+    font-family:Roboto Mono;
 }
