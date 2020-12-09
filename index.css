@@ -67,6 +67,58 @@ button {
     padding: 5px 30px 5px 30px;
 }
 
-h1 {
-    font-family:Roboto Mono;
+
+.opening {
+    width:80%;
+    margin-left:10%;
+}
+
+div.image-container {
+    width:12em;
+    float:left;
+}
+
+.image-container img {
+    width:12em;
+    height:12em;
+    border-radius: 50%;
+}
+
+.park-guide {
+    width:60%;
+    margin-left:40%;
+    margin-bottom:5%;
+    text-align:center;
+}
+
+.introduction {
+    width:90%;
+    padding: 0% 2.5% 0% 2.5%;
+    margin: 2.5%;
+    background-color:lightblue;
+}
+
+.reminders {
+    width:20%;
+    margin:auto;
+    text-align:center;
+    padding-bottom:5%;
+}
+
+.reminders img {
+    width: 5em;
+    height: 5em;
+    margin-left: 14%;
+    margin-right: 14%
+}
+
+.banner {
+    background-image: url('assets/footer_img.jpg');
+    background-size: cover;
+    width: 99%;
+    height: 15em;
+}
+
+footer {
+    width:100%;
 }
